@@ -4,16 +4,13 @@ using UnityEngine;
 
 public class Fighter : UnitBase
 {
-    [SerializeField] private AudioClip _spawnSound;
     // Start is called before the first frame update
-    void Start()
-    {
-        AudioSystem.Instance.PlaySound(_spawnSound);
+    private void Awake() {
+        base.Awake();
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
+    private void Update() {
+        base.Update();
     }
 }

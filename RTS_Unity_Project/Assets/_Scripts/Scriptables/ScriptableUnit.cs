@@ -10,8 +10,8 @@ public class ScriptableUnit : ScriptableUnitBase {
 
 [Serializable]
 public enum UnitType {
-    Fighter = 0,
-    Destroyer = 1,
-    Drednought = 2
+    FIGHTER = 0,
+    DESTROYER = 1,
+    DREDNOUGHT = 2
 }
 

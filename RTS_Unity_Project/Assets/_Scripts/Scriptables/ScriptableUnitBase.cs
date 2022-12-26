@@ -10,7 +10,7 @@ public abstract class ScriptableUnitBase : ScriptableObject {
     public Stats BaseStats => _stats;
 
     // Used in game
-    public UnitBase Prefab;
+    public GameObject Prefab;
     
     // Used in menus
     public string Description;
@@ -28,6 +28,8 @@ public struct Stats {
     public int Range;
     public float ReloadTime;
     public float Speed;
+    public float Length;
+    public float Width;
 }
 
 [Serializable]

@@ -15,7 +15,7 @@ public class ResourceSystem : StaticInstance<ResourceSystem> {
     }
 
     private void AssembleResources() {
-        Units = Resources.LoadAll<ScriptableUnit>("Units").ToList();
+        Units = Resources.LoadAll<ScriptableUnit>("Ships").ToList();
         _UnitDict = Units.ToDictionary(r => r.UnitType, r => r);
     }
 

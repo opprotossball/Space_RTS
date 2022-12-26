@@ -14,14 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Faction: 0
   _stats:
-    Cost: 0
-    Supply: 0
-    Health: 0
-    AttackPower: 0
-    Range: 0
-    ReloadTime: 0
-    Speed: 0
-  Prefab: {fileID: 0}
+    Cost: 10
+    Supply: 2
+    Health: 50
+    AttackPower: 7
+    Range: 4
+    ReloadTime: 4
+    Speed: 7
+    Length: 1.15
+    Width: 1.15
+  Prefab: {fileID: 3316228656887545883, guid: e1077d42fc8b2764783b267c89031c8f, type: 3}
   Description: Fighter ship
-  MenuSprite: {fileID: 0}
+  MenuSprite: {fileID: 21300000, guid: 24cf210708c57674b894af3341b1738b, type: 3}
   UnitType: 0
